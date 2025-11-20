@@ -22,7 +22,7 @@ jobs:
           src: "."
 
       - name: Run Bandit Scanner
-        uses: reactivate-firewall/python-bandit-action@v2.3
+        uses: reactive-firewall/python-bandit-action@v2.3
         with:
             path: "."
             level: high
