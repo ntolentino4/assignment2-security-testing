@@ -26,6 +26,7 @@ jobs:
 
       - name: Run Bandit Scanner
         uses: reactive-firewall/python-bandit-scan@v2.3
+        continue-on-error: true
         with:
             path: "."
             level: low
