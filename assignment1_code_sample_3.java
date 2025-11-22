@@ -11,7 +11,7 @@ public class VulnerableApp {
 
     private static final String DB_URL = "jdbc:mysql://mydatabase.com/mydb";
     private static final String DB_USER = "admin";
-    private static final String DB_PASSWORD = "secret123";
+    private static final String DB_PASSWORD = "secret456";
 
     public static String getUserInput() {
         Scanner scanner = new Scanner(System.in);
@@ -70,4 +70,5 @@ public class VulnerableApp {
         saveToDb(data);
         sendEmail("admin@example.com", "User Input", userInput);
     }
+
 }
