@@ -33,7 +33,3 @@ jobs:
             confidence: low
             exit_zero: true
 
-      - name: Run AppScan CodeSweep
-        uses: HCL-TECH-SOFTWARE/appscan-codesweep-action@v2.1
-    env: 
-      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
